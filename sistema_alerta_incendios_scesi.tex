@@ -1,0 +1,100 @@
+\documentclass[letter,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+%\usepackage{pifont} %Listas con dedo
+\usepackage{hyperref}
+%\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy} % Cabeceras/Pies
+\fancypagestyle{plain}% Para la primera página
+{%
+         \fancyhead[l]{\includegraphics[width=0.1\textwidth]{../../img/logoUMSS.png}}
+         \fancyhead[r]{\includegraphics[width=0.13\textwidth]{../../img/fcyt_logo.png}}
+         %REMPLAZAR <NombreDelProyecto> POR EL NOMBRE DE TU PROYECTO
+         \fancyhead[c]{}
+         \renewcommand{\headrulewidth}{0.5pt}
+         \fancyfoot[l]{Dirección de carrera Ingeniería Informática \\ Sociedad Cient\'ifica de Estudiantes de Sistemas e Inform\'atica}
+         \fancyfoot[c]{}
+         %\fancyfoot[r]{\thepage/\pageref{LastPage}}
+         \renewcommand{\footrulewidth}{0.5pt}
+}
+% Para el resto de páginas
+
+
+% % %   1 de febrero - 5 marzo
+
+\lhead{Creación de un sistema de alerta temprana de incendios}
+%REMPLAZAR <NombreDelProyecto> POR EL NOMBRE DE SU PROYECTO
+\chead{}
+\rhead{\includegraphics[width=0.1\textwidth]{../../img/logo2.png}}
+\renewcommand{\headrulewidth}{0.4pt}
+\lfoot{Dirección de carrera Ingeniería Informática \\ Sociedad Cient\'ifica de Estudiantes de Sistemas e Inform\'atica \\ 
+\url {http://scesi.memi.umss.edu.bo}}
+\cfoot{}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.4pt}
+% Title Page
+%REMPLAZAR <NombreDelProyecto> POR EL NOMBRE DE SU PROYECTO
+\title{Proyecto\\ Creación de un sistema de alerta temprana de incendios}
+%NOMBRE DEL AUTOR O AUTORES
+\author{Ubaldino Zurita\\{\normalsize Presidente SCESI}\\\\Mgr. Lic. Rosemary Torrico Bascopé\\{\normalsize Directora de carrera Ingeniería Informática}}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+    \includegraphics[width=1.0\textwidth]{../../img/scesi_informatica_logo.png} 
+\end{center}
+\begin{center}
+    \url {http://scesi.memi.umss.edu.bo}\\
+\end{center}
+\begin{center}
+    \url{http://www.cs.umss.edu.bo/rep_carrera.jsp?codigo=1}
+\end{center}
+\pagebreak
+\tableofcontents
+\pagebreak
+\begin{abstract}
+el proyecto propuesto se trata de crear un taller de ingeniería de software, que requerirá de la inclusión de varios estudiantes, investigadores, docentes e instituciones. Para crear un prototipo de un \underline{sistema de alerta} \underline{temprana de incendios}, para poder utilizarla en los bosques forestales que sufren de incendios y que con este sistema se tiene una reacción rápida para mitigar el gran daño que estos incendios causan al medio ambiente.\\
+Este taller esta pensado para fortalecer el trabajo colaborativo entre grupos que se encargaran a realizar tareas especificas para el proyecto, que se irán integrando conforme se vaya desarrollando el proyecto.
+\end{abstract}
+\pagebreak
+
+\section{Introducci\'on}
+En varias partes del mundo los bosques son cuidados con sistemas alertan de incendios, invasiones, derrumbes o cualquier otra catástrofe. Estos sistemas ayudan a controlar de forma rápida cualquier catástrofe que los bosques lleguen a sufrir, ademas de que también se pueden generar patrones para ya tener un plan de acción según a la catástrofe suscitada.\\
+El origen de la creación de estos sistemas es siempre la necesidad de poder realizar un plan de acción apenas los bosques sufran una catástrofe, y en este caso los incendios forestales.
+\section{Antecedentes}
+Los incendios forestales que cada día se suscita en varias regiones de los bosques en el mundo, hacen que se pierda un parte de la vegetación perteneciente a todo un ecosistema. Es por esto que se decide realizar un sistema de \underline{sistema de alerta temprana de incendios} con el fin de mitigar la rápida propagación que estos incendios llegan a tener debido a los vientos, calor excesivo. 
+\section{Definici\'on del Problema}
+En cochabamba mas propiamente en el Parque Nacional Tunari, se producen incendios repentinos y muy a menudo que a falta de un sistema de alerta temprana que llegue a comunicar el lugar, magnitud , dirección, etc. a las instancias que mitigan los incendios que son los bomberos, se pierde gran cantidad de forestación que daña todo un ecosistema que se forma en el área. Esto afecta también a los alrededores que son los afectados indirectos.\\
+\section{Objetivo General}
+Aprender a crear un sistema colaborativo que incluya a profesionales, estudiantes , activistas, investigadores ademas de instituciones. Con el fin de realizar un aporte útil a la sociedad en la que vivimos.\\
+Con la creación de un sistema de monitoreo de incendios forestales, que incluyan sensores , drones , camaras como mínimo. Todo esto para alertar a las instancias correspondientes que están a cargo del cuidado de los bosques forestales.
+\section{Objetivos Espec\'ificos}
+creación robusta del sistema, de modo que sea útil y aplicable a cualquier medio.\\
+Realizar trabajos multidisciplinarios para fomentar el trabajo de varios grupos en el proyecto.\\
+Realizar trabajos de campo, con el objetivo de realizar estudios sobre la comunicación de estos dispositivos que se irán trabajando por los distintos grupos conformados.
+\section{Recursos}
+\begin{itemize}
+\item Instructores con capacidad de investigación y manejo de grupos de trabajo, para poder guiar el proceso de desarrollo del proyecto.
+\item Drones Aéreos de prueba.
+\item Dispositivos móviles con el sistema Android.
+\item Red wifi, para la comunicación.
+\item Computadoras para el desarrollo.
+\end{itemize}
+
+%\section{Herramientas}
+
+%\section{Método o Técnica}
+
+\section{Justificaci\'on}
+Este proyecto se decide realizar con el fin de que nuestros parques que son el pulmón de nuestras zonas, lleguen a ser monitorizadas para que apenas suceda un incendio este sistema realice un monitoreo mediante sensores y drones, para luego analizar la causa y el lugar aproximado de origen, ademas de la dirección de propagación.\\
+Este sistema va a comunicar al cuerpo de bomberos mas próximo al lugar para que estos tengan conocimiento y realicen un plan de acción para mitigar el incendio ya sabiendo las coordenadas exactas y el tipo de bosque.
+\end{document}          

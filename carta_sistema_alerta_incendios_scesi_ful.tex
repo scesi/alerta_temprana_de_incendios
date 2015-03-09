@@ -1,0 +1,143 @@
+\documentclass[11pt,letterpaper]{letter}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym,amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage[pdftex=true,colorlinks=true,plainpages=false]{hyperref}
+\hypersetup{urlcolor=blue}
+\hypersetup{linkcolor=black}
+\hypersetup{citecolor=black}
+\usepackage{lastpage}
+\usepackage{url}
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{0.5cm}{1.7cm}
+\usepackage{fancyhdr}
+\usepackage{anyfontsize}
+\usepackage{tocbibind}
+\usepackage{eso-pic}
+\usepackage{mathptmx}
+\usepackage{draftwatermark}
+\usepackage{multirow}
+%\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{blindtext}
+
+
+%-------------------------
+
+\pagestyle{fancy}
+\lhead{
+}
+\chead{
+	{ \Huge \tt Universidad Mayor de San Simón }\\
+	{ \tt \huge Facultad de Ciencias y Tecnología }\\
+	{ \tt \Large Sociedad Científica de Estudiantes de Sistemas e Informática }
+}
+\rhead{
+}
+\lfoot{
+	{ \scriptsize \tt \url{http://www.scesi.org} } \\
+	{ \scriptsize \tt \url{http://www.scesi.memi.umss.edu.bo} }
+}
+\cfoot{
+	{ \scriptsize \tt Prolongación calle Sucre - Parque la Torre - Teléfono: 74312946 } \\
+	{ \scriptsize \tt Bloque central de la FCyT - ultimo piso } \\
+}
+\rfoot{
+	{ \small \tt root@scesi.org } \\
+ 	\thepage/\pageref{LastPage} 
+}
+
+\renewcommand{\headrule}{
+	{
+		\color{brown}
+		\hrule width\headwidth height\headrulewidth\vskip-\headrulewidth
+	}
+}
+\renewcommand{\footrule}{
+	{
+		\color{brown}%
+		\vskip-\footruleskip\vskip-\footrulewidth
+		\hrule width\headwidth height\footrulewidth\vskip\footruleskip
+	}
+}
+\renewcommand{\headrulewidth}{3pt}
+\renewcommand{\footrulewidth}{3pt}
+\headheight = 56pt
+\headsep = 10pt
+\footskip = 28pt
+%--------------------------
+
+\newcommand\BackgroundPic{
+	\put(502,728){
+		\parbox[b][\paperheight]{\paperwidth}{
+			\includegraphics[scale=0.9]{../../img/logoSinFondo.png}
+		}
+	}
+	\put(40,729){
+		\parbox[b][\paperheight]{\paperwidth}{
+			\includegraphics[scale=0.08]{../../img/logoUMSS.jpg}
+		}
+	}
+}
+
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm}
+
+%---------------------------
+\SetWatermarkAngle{0}
+%\SetWatermarkLightness{0.9}
+%\SetWatermarkFontSize{1cm}
+\SetWatermarkScale{3}
+\SetWatermarkText{\includegraphics[scale=0.4]{../../img/waterMark2.png}}
+%--------------------------------------
+
+\begin{document}
+\AddToShipoutPicture{\BackgroundPic}
+%	\tableofcontents
+
+
+\date{\today}
+\begin{letter}{ FUL UMSS \\ \underline {Presente}. -}
+
+%Email: fecortez@hotmail.com
+%Celular: 70219848
+
+\begin{center}
+	\opening{ \textbf{REF.: SOLICITUD DE FINANCIAMIENTO PARA PROYECTO ``SISTEMA DE ALERTA TEMPRANA DE INCENDIOS FORESTALES" } }
+\end{center}
+
+De nuestra consideración:
+
+A tiempo de enviarle un cordial saludo y desearle éxito en las funciones que realiza, aprovecho la oportunidad para hacerle conocer que los estudiantes integrantes de la Sociedad Científica de Estudiantes de Sistemas e Informática conjuntamente con la dirección de la carrera de Informática, estamos realizando un proyecto de ``Creación de un sistema de alerta temprana de incendios forestales utilizando drones de bajo costo".\\
+
+El proyecto se llevara a cabo desde el dia sabado 31 de enero al miercoles 4 de marzo del 2015 (33 días).
+
+En ese sentido le hacemos saber que para llevar a cabo el proyecto, se necesita pagar el viaje y estadía durante el proceso de desarrollo del proyecto, del  experto {\bf PhD. Eduardo Di Santi}, ya que tiene un amplio conocimiento con el desarrollo de proyectos colaborativos y manejo de grupos de investigacion. Ademas de que tiene dominio con el tema de sensores y aeromodelismo.\\
+
+Para solicitar el financiamiento en primera instancia se elaboro el proyecto como propuesta hacia el Dr. Di Santi, obteniendo una respuesta modificada y detallada en el proceso de desarrollo del proyecto denominado {\it Taller de ingeniería de software}, Como también se fue cotizando los pasajes de viaje en avión del Dr. Di Santi desde Southampton - Cbba y de vuelta de Cbba - Southampton.\\
+
+Para respaldar nuestra solicitud, junto con esta carta adjuntamos:
+\begin{itemize}
+\item Proyecto Elaborado por parte de la SCESI y Dirección de Carrera de Ingeniería Informática.
+\item Respuesta al proyecto por parte del PhD. Eduardo Di Santi.
+\item Presupuesto de Pasajes y viáticos para el PhD. Eduardo Di Santi.
+\item Hoja de Vida del PhD. Eduaro Di Santi. Para dar credibilidad a su amplia trayectoria de investigación.
+\end{itemize}
+
+Sin otro particular y a la espera de una respuesta favorable a esta solicitud, me despido con las consideraciones más distinguidas.
+
+Atentamente,
+
+\vspace{0.50cm}
+
+\begin{center}
+...................................\\
+Ubaldino Zurita\\
+{\bfseries Presidente de la SCESI}
+\end{center}
+%\vspace{0.1cm}
+cc Archivo.
+\end{letter}
+
+\end{document}
